@@ -778,8 +778,8 @@ def main() -> int:
     )
     parser.add_argument(
         "--until",
-        default="2026-11-13 13:00:00",
-        help="봇 유지 만료 시각 (YYYY-MM-DD HH:MM:SS, 기본값: '2026-11-13 13:00:00')",
+        default="2026-11-20 23:59:59",
+        help="봇 유지 만료 시각 (YYYY-MM-DD HH:MM:SS, 기본값: '2026-11-20 23:59:59')",
     )
     parser.add_argument(
         "--query",
